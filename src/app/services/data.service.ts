@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 
 export class DataService {
 
-    url = 'http://localhost:3000/users' ;
+    url = 'https://database-tpf.herokuapp.com/' ;
 
     constructor(private http: HttpClient){}
 
